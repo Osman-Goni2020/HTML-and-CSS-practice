@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: #435f9c;
+    padding: 10px 0px 5px 0px;
+    color: white;
+    
+}
+.header::after{
+    content: '';
+    clear: both;
+    display: block;
+
+}
+.container{
+    width: 65%;
+    margin: auto;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.logo-area img{
+    width: 38%;
+    margin-top: 5px;
+}
+
+.login-area{
+    width: 70%;
+    float: right;
+}
+.login-area form{
+    float: right;
+}
+.login-area label,
+.login-area input{
+    display: block;
+}
+.login-area label{
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.login-area .email,
+.login-area .passwork,
+.login-area .loginbtn{
+    float: left;
+    margin-right: 10px;
+}
+.login-area .loginbtn{
+    margin-right: 0;
+    margin-top: 23px;
+}
+.login-area input[type="text"],
+.login-area input[type="password"]{
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2px 5px;
+}
+.login-area .passwork a{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 12px;
+}
+.login-area .passwork a:hover{
+ text-decoration: underline;
+}
+.login-area .loginbtn input[type="submit"]{
+    background-color: #435f9c;
+    border: 1px solid #192a5d;
+    color: white;
+    padding: 3px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
